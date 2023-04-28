@@ -1,0 +1,21 @@
+/* ====================================================
+Recreating the email field from https://webflow.com/cms. Just an experiment - not as cross-browser friendly as the original.
+Changed:
+- animated gradient bar to :after element
+- flexbox for layout
+==================================================== */
+
+
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 25%;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20%;
+   
+}

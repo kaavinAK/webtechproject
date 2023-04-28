@@ -1,0 +1,12 @@
+.homebuttonclass{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 40%;
+    justify-content: space-around;
+   
+    width:50%;
+    height: 10%;
+}

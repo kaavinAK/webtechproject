@@ -1,0 +1,15 @@
+.repoform{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 30%;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 10%; 
+    
+}
+.repoform * {
+    margin: 5px;
+}

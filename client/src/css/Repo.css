@@ -1,0 +1,22 @@
+.files{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 30%;
+    width: 25vw;
+    justify-content: center;
+}
+
+.formmodel{
+    display: flex;
+    flex-direction: row;
+
+}
+.formodel input{
+    flex-grow: 1;
+}
+.formmodel button {
+flex-grow: 2;
+}
